@@ -16,5 +16,16 @@ body {
     blue,
     indigo,
     violet
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пример</title>
+    <style> /* Изменяем цвет всех ссылок */ a { color: red; /* Цвет обычных ссылок */ } /* Изменяем цвет при наведении курсора */ a:hover { color: blue; /* Цвет ссылок при наведении */ } /* Изменяем цвет активной ссылки */ a:active { color: green; /* Цвет активной ссылки */ } /* Изменяем цвет посещенной ссылки */ a:visited { color: purple; /* Цвет посещённой ссылки */ } </style>
+</head>
+<body>
+    <a href="#">Это ссылка красного цвета.</a>
+</body>
+</html>
   );
 }
